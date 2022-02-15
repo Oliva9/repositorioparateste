@@ -1,0 +1,16 @@
+p { 
+    color: #222;
+    font-size: 16px;
+}
+div {
+    width: 300px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+div article p {
+    color: green;
+}
+* {
+    text-transform: uppercase;
+    color: orange;
+    }

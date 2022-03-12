@@ -1,0 +1,200 @@
+/* Estilos Gerais */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #223759;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.header_menu ul li a {
+  color: #ecc601;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #fff;
+}
+
+.logotipo_escola {
+  margin-left: 0px;
+}
+
+.logotipo_escola img {
+  border-radius: 50px;
+  width: auto;
+  height: 80px;
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 480px;
+  background: url('../img/fundo-intro.png') no-repeat center;
+  background-size: cover;
+  margin-top: 110px;
+  padding-top: 80px;
+}
+
+.text-intro {
+  width: auto;
+  height: 360px;
+  padding: 0 10px;
+  background: rgba(103, 125, 160, 0.75);
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #223759;
+  text-align: center;
+}
+
+.text-intro h2 {
+  padding: 20px 20px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ecc601;
+}
+
+.text-intro p {
+  padding: 20px 20px 30px 0px;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ecc601;
+}
+
+.img-intro {
+  width: 360px;
+  height: 360px;
+  padding: 0 10px;
+  background: url(../img/img-intro.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 4px #223759;
+  border-radius: 10px;
+}
+
+.informativo {
+  width: 100%;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.informativo .subtitulo {
+  color: #223759;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.informativo_lista li {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.informativo_lista li img {
+  margin: 0 auto;
+  box-shadow: 1px 1px 4px #cccccc;
+}
+
+.hide {
+  display: none;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background: #223759;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ecc601;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+.footer_contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.footer_redes ul li {
+  display: inline-block; /* */
+  margin-right: 10px;/* */
+}
+/* */
+.footer_redes ul li a {
+  border: 3px solid #ecc601;/* adiciona uma borda amarela */
+  display: block; /* faz a borda ter formato de quadrado*/
+  padding: 10px; /* define distancia entre o conteudo e suas bordas*/
+}
+/* */
+.footer_redes ul li a:hover {
+  border-color: #fff; /* cor da borda */
+}
+/* estiliza o fundo do ultimo paragrafo */
+.copy {
+  text-align: center; /* centraliza o paragrafo */
+  width: 100%; /* largura do fundo amarelo */
+  background: #ecc601; /* adiciona um fundo amarelo para o paragrafo*/
+  padding: 10px 0; /* define uma distancia entre a frase e as bordas */
+}
+
+/* comandos para personalizar o ultimo paragrafo */
+.copy p {
+  font-weight: bold; /* deixa as letras em negrito */
+  font-family: Arial, Helvetica, sans-serif; /* muda a fonte das letras */
+  color: #223759; /* muda a cor das letras*/
+}
